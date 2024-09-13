@@ -1,0 +1,65 @@
+/* assets/css/style.css */
+
+@import 'typography.css';
+@import 'topbar.css';
+@import 'navbar.css';
+@import 'buttons.css';
+@import 'sections.css';
+@import 'footer.css';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+    --primary: #000000;
+    --secondary: #009d00;
+    --light: #cecece;
+    --dark: #0a3d08;
+    --middle: #232020;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bahnscrift', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: var(--light);
+    background-color: var(--primary);
+}
+
+h1 {
+    font-family: 'Autogate', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h5 {
+    font-family: 'Autogate', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.text-shadow-smoky {
+    text-shadow: 3px 3px 3px rgba(2, 56, 10, 0.562);
+}
+
+.custom-hr {
+    border: none; /* Remove a borda padrão */
+    height: 3px; /* Define a altura da linha */
+    background-color: #00ff4c; /* Define a cor da linha */
+    width: 100%; /* Define a largura da linha */
+    margin: auto; /* Centraliza a linha */
+    border-radius: 5px; /* Adiciona bordas arredondadas, se desejado */
+    box-shadow: 0 0 20px rgb(14, 223, 14); /* Efeito neon */
+}
+
+/*** Miscellaneous ***/
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
