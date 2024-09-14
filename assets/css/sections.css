@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.carousel-caption p{
+.carousel-caption p {
     font-size: 1.5rem;
 }
 
@@ -37,16 +37,17 @@
 }
 
 @media (max-width: 576px) {
-    .carousel-caption{
+    .carousel-caption {
         position: relative;
         top: auto;
         bottom: auto;
         padding-top: 10px;
     }
 
-    .carousel-caption p{
+    .carousel-caption p {
         font-size: 1.2rem;
     }
+
     .carousel-item {
         padding-bottom: 10px;
     }
@@ -59,21 +60,34 @@
 
     .carousel-item img {
         width: 100%;
-        height: auto; 
-    }    
+        height: auto;
+    }
 }
 
+/* Estilos  para Serviços */
+.service-card {
+    margin: 0;
+    color: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    transition: .5s;
+}
+
+.service-card img{
+    max-width: 200px;
+}
 
 /* Estilos  para Sobre */
-
 #about-us {
     background: var(--middle);
     color: var(--light);
     border-radius: 10px;
     padding: 3rem 0;
     position: relative;
-    z-index: -1; 
+    z-index: -1;
 }
+
 #about-us::before {
     content: "";
     position: absolute;
@@ -106,6 +120,7 @@
     color: var(--secondary);
     font-family: 'Autogate', Arial, sans-serif;
 }
+
 .about-us-text {
     font-size: 1.2rem;
     font-style: italic;
