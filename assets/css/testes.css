@@ -1,3 +1,4 @@
+/* Footer Style */
 .footer {
     background-color: var(--middle);
     padding: 40px 0;
@@ -109,9 +110,4 @@
       margin-bottom: 20px;
     }
   }
-
-.bg-box-footer {
-    border-radius: 10px;
-    background-image: linear-gradient(to bottom, var(--primary), var(--dark));
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.712);
-}
+  
