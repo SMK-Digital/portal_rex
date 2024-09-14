@@ -95,7 +95,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/rex-bg-destaque.jpg');
+    background:linear-gradient(354deg, rgba(95, 96, 94, 0.856) 0%, rgba(0, 0, 0, 1) 5%, rgba(36, 35, 35, 1) 49%, rgba(0, 0, 0, 1) 85%, rgba(95, 96, 94, 0.875) 98%);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.3;
