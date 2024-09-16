@@ -65,6 +65,7 @@
 }
 
 /* Estilos  para Serviços */
+
 .service-card {
     margin: 0;
     color: #FFFFFF;
@@ -72,11 +73,25 @@
     display: flex;
     justify-content: center;
     transition: .5s;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .service-card img{
+    padding: 10px;
     max-width: 200px;
+    height: auto;
 }
+
+@media (max-width: 576px) {
+    .service-card img{
+        padding: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 
 /* Estilos  para Sobre */
 #about-us {
