@@ -56,10 +56,30 @@ h5 {
 }
 
 /*** Miscellaneous ***/
-.back-to-top {
+
+.whatsapp-button {
     position: fixed;
-    display: none;
+    display: flex; /* Usar flexbox para centralizar o conteúdo */
+    align-items: center; /* Alinha verticalmente o ícone */
+    justify-content: center; /* Alinha horizontalmente o ícone */
     right: 45px;
     bottom: 45px;
     z-index: 99;
+    background-color: #25d366; /* Cor do WhatsApp */
+    color: white;
+    border-radius: 50%;
+    width: 60px; /* Largura do botão */
+    height: 60px; /* Altura do botão */
+    box-shadow: 0 4px 4px rgba(0, 68, 40, 0.788);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.whatsapp-button i {
+    font-size: 28px; /* Tamanho do ícone */
+}
+
+.whatsapp-button:hover {
+    background-color: #042925; /* Cor mais escura ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(194, 243, 222, 0.788);
+    color: white;
 }
